@@ -6,7 +6,7 @@ function add(num1: number, num2: number) {
   return num1 + num2;
 }
 
-btn?.addEventListener("click", () => {
+btnele?.addEventListener("click", () => {
   const inp1val = Number(inp1ele.value);
   const inp2val = Number(inp2ele.value);
   console.log(add(inp1val, inp2val));
